@@ -72,8 +72,7 @@ spec:
     - id: publish
       name: Publish
       action: publish:github
-      input:
-        allowedHosts: ["github.com"]
+      input:        
         description: This is ${{ parameters.component_id }}
         repoUrl: ${{ parameters.repoUrl }}
 
