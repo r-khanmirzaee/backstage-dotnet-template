@@ -4,6 +4,8 @@ metadata:
   name: dotnet-template
   title: ".Net 9 Service"
   description: "Create a simple web api using .Net 9"
+  annotations:
+    github.com/project-slug: ${{ parameters.owner }}/${{ parameters.project_name }}
   tags:
     - recommended
     - dotnet
