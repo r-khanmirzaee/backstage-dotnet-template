@@ -1,12 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: ${{values.component_id | dump}}  
-  description: ${{values.description | dump}}  
-  annotations:
-    github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
-    backstage.io/techdocs-ref: dir:.
+  name: orders-service-catalog
 spec:
-  type: service
-  lifecycle: experimental
-  owner: ${{values.owner | dump}}
+  targets:
+    - ./catalog/domain.yaml
+    - ./catalog/system.yaml    
+    - ./catalog/component.yaml
