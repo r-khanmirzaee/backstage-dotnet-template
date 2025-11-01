@@ -3,5 +3,5 @@ kind: System
 metadata:
   name: ordering
 spec:
-  owner: team-ordering
+  owner: guests
   domain: commerce

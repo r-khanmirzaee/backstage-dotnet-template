@@ -3,4 +3,4 @@ kind: Domain
 metadata:
   name: commerce
 spec:
-  owner: team-ordering
+  owner: guests
